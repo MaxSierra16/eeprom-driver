@@ -1,0 +1,36 @@
+# MPLAB X / XC toolchains
+build/
+dist/
+debug/
+production/
+nbproject/private/
+nbproject/Makefile-.mk
+nbproject/Package-.mk
+
+# Intermediate object and dependency files
+*.o
+*.obj
+*.d
+*.lst
+*.map
+
+# Binaries and firmware images
+*.elf
+*.hex
+*.cof
+*.srec
+*.bin
+
+#Logs and temporary files
+*.log
+*.tmp
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*.orig
+*.bak*
